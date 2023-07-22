@@ -9,5 +9,6 @@ The most basic about node. (in order)
 - A callbackhell example.
 
 ## Promises
-- 
+- A basic promises example.
+
 
