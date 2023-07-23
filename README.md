@@ -17,3 +17,6 @@ The most basic about node. (in order)
 # Modules
 ## FileSystem
 - Read, Write and Delete file implementation.
+
+## Console
+- Most used type of console. (log error count group etc etc).
