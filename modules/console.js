@@ -54,6 +54,7 @@ function functionB() {
 console.log('start again checking the functions A & B')
 functionA();
 
+console.time('counting time')
 
 console.count('counting==> ')
 console.count('XX counting==> ')
@@ -69,3 +70,5 @@ console.count('XX counting==> ')
 console.count('XX counting==> ')
 console.count('counting==> ')
 console.count('counting==> ')
+
+console.timeEnd('counting time')
