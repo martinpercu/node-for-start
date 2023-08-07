@@ -15,7 +15,7 @@ The most basic about node. (in order)
 - A basic async-await example. (is the way to put an order in the secuenciallity of process)
 
 # Modules
-## FileSystem
+## FileSystem (fs)
 - Read, Write and Delete file implementation.
 
 ## Console
@@ -50,9 +50,12 @@ node-gyp build
 "addon.hello()"<br>
 Should print ===> world
 
-
 ## HTTP  Process
 - Create a file http.js in the modules folder
 - In this file just how to create a server.
+
+## Operating system
+- Example of know about the os with node.
+- Is a file os.js
 
 
