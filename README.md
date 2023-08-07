@@ -27,7 +27,6 @@ The most basic about node. (in order)
 ## Child Process
 - Child process with exec, spawn.
 
-
 ## C++ (modules from C++)
 - In modules folder create a new folder "natives"
 - First install the "node-gyp"
@@ -50,3 +49,10 @@ node-gyp build
 "const myAddon = require('./build/Release/addon');"<br>
 "addon.hello()"<br>
 Should print ===> world
+
+
+## HTTP  Process
+- Create a file http.js in the modules folder
+- In this file just how to create a server.
+
+
