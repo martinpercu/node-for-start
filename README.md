@@ -58,4 +58,9 @@ Should print ===> world
 - Example of know about the os with node.
 - Is a file os.js
 
+## Process
+- In modules create process.js.
+- Process is already in globals no need to "required"
+- In this file examples to get the process.
+- IMPORTANT!!!! once we are in process.on('exit') we are disconnected from event loop.
 
