@@ -89,3 +89,19 @@ const isOddNumber = require('is-odd');<br>
 - In package folder create a new folder "modules".
 - In modules folder 2 index + 2 modules. (one with old way and the others with the new way).
 
+
+## Useful Modules (bcrypt - moment - sharp)
+- In package a new folder "utils"
+```sh
+npm init -y
+npm install bcrypt
+```
+- New file bcrypt.js ===> bcrypt.hash use 3 parameters (string, rounds, function)
+```sh
+npm install moment
+```
+- New file moment.js ===> moment create an object to use dates.
+```sh
+npm install sharp
+```
+- New file sharp.js ===> useful to works with images.
