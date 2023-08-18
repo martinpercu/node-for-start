@@ -141,6 +141,41 @@ npm i puppeteer
 ```
 - Now create a file index.js
 - In index.js create an asyc funtion autoexecutable.
--
+
+## Process Automatization
+- In folder tools create another folder "automatization".
+- In folder automatization===>
+```sh
+npm init
+```
+- This create a package.json ==> here there is the "scripts" . This what we will use.
+```sh
+npm i gulp gulp-server-livereload
+```
+- New file gulpfile.js and create a task with gulp.
+- In Package.json add in scripts the gulp one.
+- Then  ===>
+```sh
+npm run build
+```
+- In gulp file a gulp.task => serve
+- Create the folder www with and index.html inside
+- In Package.json add in scripts "serve".... Then  ===>
+```sh
+npm run serve
+```
+- Also ==> gulp.task('default', gulp.series('build', 'serve')); ==> this run the function 'build' then 'serve' 
+- In package.json add in scripts --"start": "gulp",-- .. then ==>
+```sh
+npm run start
+```
+- Than will run the default gulp ! ! ! 
+
+
+
+
+
+
+
 
 
