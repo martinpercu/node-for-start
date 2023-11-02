@@ -20,3 +20,9 @@ The most basic about node. (in order)
 
 ## Console
 - Most used type of console. (log error count group etc etc).
+
+## Errors
+- Get errors in main process and in asyncprocess.
+
+## Child Process
+- Child process with exec, spawn.
