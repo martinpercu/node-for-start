@@ -26,3 +26,27 @@ The most basic about node. (in order)
 
 ## Child Process
 - Child process with exec, spawn.
+
+
+## C++ (modules from C++)
+- In modules folder create a new folder "natives"
+- First install the "node-gyp"
+```sh
+npm i -g node-gyp
+```
+- Creation a source file===> https://nodejs.org/api/addons.html#addons_hello_world
+- Create a "binding.gyp" modules/natives
+- In modules/natives===>
+```sh
+node-gyp configure
+```
+- Now we have a "build" folder
+- In modules/natives===>
+```sh
+node-gyp build
+```
+- The module should be compiled and we have now a binary file (build/Release/addon.node).
+- Create a js file to import it and use the module....<br>
+"const myAddon = require('./build/Release/addon');"<br>
+"addon.hello()"<br>
+Should print ===> world
