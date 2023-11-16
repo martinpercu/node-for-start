@@ -64,3 +64,21 @@ Should print ===> world
 - In this file examples to get the process.
 - IMPORTANT!!!! once we are in process.on('exit') we are disconnected from event loop.
 
+## Package NPM is odd 
+- Create a new folder "packages".
+- In packages folder new "npm"
+- in this folder ===>
+```sh
+cd packages/npm
+npm init
+```
+- This create a package.json
+- Then if we install some npm here will add it as a dependency in the package.json. Also will create the package-lock.json
+```sh
+npm install is-odd
+```
+- ah!! Also this will create the folder node_modules with all packages needed. (in this case "is-odd" and "is-number").
+- Then in npm folder create an index.js.
+- In index.js we can invoke the modele with something like===> <br>
+const isOddNumber = require('is-odd');<br>
+
