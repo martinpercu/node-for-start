@@ -82,3 +82,10 @@ npm install is-odd
 - In index.js we can invoke the modele with something like===> <br>
 const isOddNumber = require('is-odd');<br>
 
+
+## Modules require-old  & import-new
+- This is an example of old and new ways to import the modules.
+- The old is with "require" & the new is with "import".
+- In package folder create a new folder "modules".
+- In modules folder 2 index + 2 modules. (one with old way and the others with the new way).
+
