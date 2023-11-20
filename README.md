@@ -89,7 +89,6 @@ const isOddNumber = require('is-odd');<br>
 - In package folder create a new folder "modules".
 - In modules folder 2 index + 2 modules. (one with old way and the others with the new way).
 
-
 ## Useful Modules (bcrypt - moment - sharp)
 - In package a new folder "utils"
 ```sh
@@ -105,3 +104,8 @@ npm install moment
 npm install sharp
 ```
 - New file sharp.js ===> useful to works with images.
+
+## Buffer
+- The buffer is the simple info in memory with the raw info.
+- New folder "memory".
+- New file buffer.js showing little bit how buffer is.
