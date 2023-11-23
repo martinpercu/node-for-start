@@ -109,3 +109,9 @@ npm install sharp
 - The buffer is the simple info in memory with the raw info.
 - New folder "memory".
 - New file buffer.js showing little bit how buffer is.
+
+## Stream
+- The streams are the informlation "traveling" to the memory.
+- 2 files ===>
+- stream_read.js ==> Example just for read a stream.
+- stream_write.js ==> Example just for read get and write a stream.
