@@ -115,3 +115,9 @@ npm install sharp
 - 2 files ===>
 - stream_read.js ==> Example just for read a stream.
 - stream_write.js ==> Example just for read get and write a stream.
+
+# Tricks ??
+## Benchmarking
+- New folder "triks" 
+- new file benchmarking.js
+- In this file example how to use console.time() + console.timeEnd() to know process times.
