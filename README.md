@@ -121,3 +121,8 @@ npm install sharp
 - New folder "triks" 
 - new file benchmarking.js
 - In this file example how to use console.time() + console.timeEnd() to know process times.
+
+## Error First
+- Alway put the error as first argument. (VERY VERY IMPORTANT)
+- new file errorFirst.js
+- important!  ===> throw err NOT WORK with asynchronious functions
