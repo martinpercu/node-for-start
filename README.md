@@ -126,3 +126,21 @@ npm install sharp
 - Alway put the error as first argument. (VERY VERY IMPORTANT)
 - new file errorFirst.js
 - important!  ===> throw err NOT WORK with asynchronious functions
+
+
+## Scrapping
+- Create folder "tools"
+- In folder tools create another folder "scrapping".
+- In folder scrapping===>
+```sh
+npm init
+```
+- then in the same folder
+```sh
+npm i puppeteer
+```
+- Now create a file index.js
+- In index.js create an asyc funtion autoexecutable.
+-
+
+
