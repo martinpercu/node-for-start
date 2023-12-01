@@ -172,6 +172,26 @@ npm run start
 - Than will run the default gulp ! ! ! 
 
 
+## Desktop App
+- I folder tools create another folder "electron".Then  ===>
+```sh
+npm init
+```
+- Change name in the package.json from electron to electron-app (that is because when install electron will need a dif name to install it) ==>
+```sh
+npm i electron
+```
+- Create a index.html. This will be the first window for the app.
+- Create a index.js. This is to create the app.
+- IMPORTANT!! ==> app.on('ready', createMainWindow);==> Electron will start to build in background the app when is "ready" then we can call the funtion to do whatever we need.
+- In package.json add the script.  ==>     "start": "electron .",
+ ==> the "." is to show the route where to run electron. 
+
+
+
+
+
+
 
 
 
